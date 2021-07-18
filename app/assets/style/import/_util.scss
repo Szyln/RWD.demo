@@ -1,0 +1,50 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+
+// 20px
+.fs-5 {
+  font-size: 1.25rem;
+}
+.text-bold {
+  font-weight: 700;
+}
+
+.lh-small {
+  line-height: 1.2;
+}
+
+.lh-min {
+  line-height: 1;
+}
+
+
+.text-center {
+  text-align: center;
+}
+.py-2 {
+  padding: 8px 0;
+}
+.pt-5 {
+  padding-top: 20px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+

@@ -10,14 +10,27 @@
 </head>
 
 <body>
-  <header class="header">
-    這是 header
+  <header class="header container mb-6 pt-5">
+    <nav class="nav">
+      <a href="#" class="nav__link-brand ">
+        <picture>
+          <source media="(max-width: 768px)" srcset="https://fakeimg.pl/150x150/?text=LOGO150">
+          <img class="d-block" src="https://fakeimg.pl/250x250/?text=LOGO250" alt="logo">
+        </picture>
+      </a>
+      <ul class="nav__navbar lh-min text-bold" text-center>
+        <li class="nav__navbar-item"><a href="#" class="navbar__link btn">公司簡介</a></li>
+        <li class="nav__navbar-item"><a href="#" class="navbar__link btn">專業服務</a></li>
+        <li class="nav__navbar-item"><a href="#" class="navbar__link btn">新聞活動</a></li>
+        <li class="nav__navbar-item"><a href="#" class="navbar__link btn">聯繫我們</a></li>
+      </ul>
+    </nav>
   </header>
 
   <%- contents %>
 
-  <footer class="footer">
-    footer
+  <footer class="container lh-min text-center py-2">
+    Copyright© 2020
   </footer>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>

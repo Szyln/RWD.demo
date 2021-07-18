@@ -1,0 +1,36 @@
+.btn {
+  display: block;
+  text-decoration: none;
+  background: #3399FF;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+}
+
+.btn:hover {
+  background: orange;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+  &__link-brand {
+    @include mobile {
+      margin-bottom: 24px;
+    }
+  }
+  &__navbar {
+    display: flex;
+    flex-wrap: wrap;
+    &-item {
+      @include mobile {
+        width: 50%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
